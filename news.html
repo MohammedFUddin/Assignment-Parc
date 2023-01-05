@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/navigation.css"> -->
+    <style>
+        section {
+            display: flex;
+        }
+
+        /* div {
+            border: 2px solid;
+            margin-left: 10px;
+            padding: 10px;
+
+        } */
+
+        ul {
+            display: flex;
+            align-items: center;
+            background-color: #00af8f;
+            list-style: none;
+            /* removes bullets */
+            padding: .5em;
+            margin: 0;
+        }
+
+        li {
+            margin: 0 1em;
+        }
+
+        li.logo {
+            margin-right: auto;
+            pointer-events: none;
+
+        }
+
+        li>img {
+            float: left;
+            width: 80px;
+            height: 80px;
+        }
+
+
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        nav>ul>li:hover {
+            background-color: lightgrey;
+            border-radius: 5px;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.5s;
+            /* box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+
+        }
+
+
+        video {
+            width: auto;
+            height: 30%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="upper">
+        <nav>
+            <ul>
+                <li class="logo"><img src="media/parc-logo-retina.png" alt=""></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="photogallery.html">Photo Gallery</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="Onlineorder.html">Online Order</a></li>
+            </ul>
+            <!-- <img src="parc-logo-retina.png" alt=""> -->
+        </nav>
+    </div>
+
+    <article>
+        <h3>The Resturent</h3>
+        <p class="paragraph">Parc is redefined contemporary Detroit cuisine. Our approach to this concept is simple
+            Detroit and Midwest
+            flavors with influences of French and Mediterranean style. Detroit, with its roots as a European city and
+            leader of the industrial movement, has merged dining and food experiences from many cultures and geographic
+            locations around the world. </p>
+
+        <h3>Catering</h3>
+        <p class="paragraph">We cater small parties as well as big parties of up to 500 peoples.</p>
+
+        <h3>Location and Hours</h3>
+        <p class="paragraph">Camus Martius Park <br>800 Woodward Ave, Detroit, MI 48226 <br>Monday through Sunday 10am
+            to 10pm</p>
+    </article>
+
+    <section>
+        <div>
+            <!-- <h3>Campus Martius in front of the restirent Parc Detroit in the Cristmas time: </h3> -->
+            <video src="media/SNAP_20211124-011528.mp4" controls></video>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vWkMMzbZj_g"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
